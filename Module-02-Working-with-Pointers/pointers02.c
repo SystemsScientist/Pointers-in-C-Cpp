@@ -1,4 +1,4 @@
-// pointers02.c, Module 01, Pointers in C/C++
+// pointers02.c, Module 02, Pointers in C/C++
 // program demonstrates variables and pointers
 //
 // compile and execute program with the following
