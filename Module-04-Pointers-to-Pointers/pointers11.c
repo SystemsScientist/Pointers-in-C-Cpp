@@ -11,7 +11,7 @@
 int main(void) {
 
 	int x = 5;
-	int *p = &x;
+	int *p = &x; // core dump, if *p is not initialized to &x
 	*p = 6;
 	
 	int **q = &p;
