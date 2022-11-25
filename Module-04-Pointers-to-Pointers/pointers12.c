@@ -11,9 +11,11 @@
 int main(void) {
 
 	int x = 5;
-	int *p = &x;
+	int *p = &x; /*
+		       	core dump, if *p is not initialized to &x
+			also called a segmentation fault
+		     */
 	*p = 6;
-
 	int** q = &p;
 	int*** r = &q;
 
